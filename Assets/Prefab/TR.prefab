@@ -1888,6 +1888,7 @@ GameObject:
   - component: {fileID: 3662476755006647698}
   - component: {fileID: 5328788236422860867}
   - component: {fileID: 6117821253524033143}
+  - component: {fileID: 1878682168718921324}
   m_Layer: 0
   m_Name: SpawnPoint (1)
   m_TagString: SpawnPoint
@@ -1956,6 +1957,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1878682168718921324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211729691533857700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb6cd294b35be0489d2278224150cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openingDirection: 3
+  spawned: 0
 --- !u!1 &6709887202297152128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2549,7 @@ GameObject:
   - component: {fileID: 8035234539115720377}
   - component: {fileID: 7715084375031806815}
   - component: {fileID: 1840977551257179706}
+  - component: {fileID: 4130610098532514203}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: SpawnPoint
@@ -2602,6 +2618,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4130610098532514203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248319973701715615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb6cd294b35be0489d2278224150cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openingDirection: 1
+  spawned: 0
 --- !u!1 &8488306993922703534
 GameObject:
   m_ObjectHideFlags: 0
